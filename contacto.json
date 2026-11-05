@@ -1,0 +1,41 @@
+{
+  "telefono_contacto": "5493644123456",
+  "email": "fedepapu@j.com",
+  "direccion": "donde era el quinto cabeza de mono",
+  "google_maps_url": "",
+  "horarios": {
+    "lunes": {
+      "abierto": true,
+      "intervalos": [
+        {
+          "desde": "00:00",
+          "hasta": "01:00"
+        }
+      ]
+    },
+    "martes": {
+      "abierto": false,
+      "intervalos": []
+    },
+    "miercoles": {
+      "abierto": false,
+      "intervalos": []
+    },
+    "jueves": {
+      "abierto": false,
+      "intervalos": []
+    },
+    "viernes": {
+      "abierto": false,
+      "intervalos": []
+    },
+    "sabado": {
+      "abierto": false,
+      "intervalos": []
+    },
+    "domingo": {
+      "abierto": false,
+      "intervalos": []
+    }
+  }
+}

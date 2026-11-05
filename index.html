@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="JS, distribuidora en Campo Largo, Chaco. Almacén, bebidas, limpieza e higiene con precios mayoristas y minoristas para comercios y familias.">
+	<meta name="theme-color" content="#000611">
+	<title>JS Distribuidora | Precios por mayor y menor</title>
+	<link rel="icon" href="assets/logo-192.png" type="image/png">
+	<link rel="apple-touch-icon" href="assets/logo-192.png">
+	<link rel="manifest" href="manifest.webmanifest">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script type="module" src="js/main.js"></script>
+	<script type="module" src="js/contact.js"></script>
+	<script type="module" src="js/pwa.js"></script>
+</head>
+<body>
+	<a class="skip-link" href="#contenido">Ir al contenido</a>
+	<div class="announcement-bar">
+		<p>Distribuidora en Campo Largo <span aria-hidden="true">·</span> Precios por mayor y menor</p>
+		<a href="contacto.html">Horarios y ubicación <span aria-hidden="true">→</span></a>
+	</div>
+
+	<header class="site-header">
+		<div class="header-main wrap">
+			<a class="brand" href="index.html" aria-label="JS, inicio">
+				<img src="assets/logo-192.png" width="48" height="48" alt="">
+				<span class="brand-copy"><strong data-business-name>JS</strong><span>DISTRIBUIDORA</span></span>
+			</a>
+			<form class="search-form" id="site-search" role="search">
+				<label class="visually-hidden" for="search-input">Buscar productos</label>
+				<span class="search-icon" aria-hidden="true">🔍</span>
+				<input id="search-input" name="q" type="search" placeholder="¿Qué estás buscando?" autocomplete="off">
+				<button type="submit">Buscar</button>
+			</form>
+			<a class="cart-link" href="carrito.html" aria-label="Ir al carrito, 0 artículos">
+				<span class="cart-icon" aria-hidden="true">🛒</span>
+				<span class="cart-label">Mi carrito</span>
+				<span class="cart-count" data-cart-count aria-live="polite">0</span>
+			</a>
+		</div>
+		<nav class="main-nav" aria-label="Navegación principal">
+			<div class="wrap nav-inner">
+				<a class="nav-active" href="index.html" aria-current="page">Inicio</a>
+				<a href="productos.html">Productos</a>
+				<a href="ofertas.html">Ofertas</a>
+				<a href="contacto.html">Contacto</a>
+				<span class="nav-location"><span aria-hidden="true">📍</span> Campo Largo, Chaco</span>
+			</div>
+		</nav>
+	</header>
+
+	<main id="contenido">
+		<section class="hero grocery-hero" aria-labelledby="hero-title">
+			<img class="hero-image" src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=2000&q=82" width="2000" height="1100" alt="Góndolas con productos variados de la distribuidora" fetchpriority="high">
+			<div class="hero-shade" aria-hidden="true"></div>
+			<div class="hero-content wrap">
+				<p class="eyebrow hero-eyebrow"><span></span> DISTRIBUIDORA MAYORISTA Y MINORISTA</p>
+				<h1 id="hero-title">Abastecé tu negocio y tu casa.</h1>
+				<p class="hero-description">Almacén, bebidas, limpieza e higiene en cantidad, con precios por mayor y por menor.</p>
+				<div class="hero-actions">
+					<a class="button button-lime" href="productos.html">Ver catálogo <span aria-hidden="true">↘</span></a>
+					<a class="hero-text-link" href="ofertas.html">Ver ofertas de la semana <span aria-hidden="true">→</span></a>
+				</div>
+				<p class="hero-note">Productos y precios de ejemplo · Valores a confirmar</p>
+			</div>
+			<div class="hero-stamp" aria-label="Distribuidora en Campo Largo">
+				<span aria-hidden="true">✳</span><strong>Por mayor<br>y por menor</strong>
+			</div>
+		</section>
+
+		<section class="service-strip" aria-label="Información de compra">
+			<div class="wrap service-grid">
+				<div class="service-item"><span class="service-symbol" aria-hidden="true">🛒</span><div><strong>Pedido simple</strong><span>Armá tu pedido y envialo por WhatsApp</span></div></div>
+				<div class="service-item"><span class="service-symbol" aria-hidden="true">📦</span><div><strong>Variedad para tu negocio</strong><span>Almacén, bebidas, limpieza y más</span></div></div>
+				<div class="service-item"><span class="service-symbol" aria-hidden="true">📍</span><div><strong>Precio mayorista</strong><span>Comprando por cantidad pagás menos</span></div></div>
+			</div>
+		</section>
+
+		<section class="categories-section section-pad" aria-labelledby="categories-title">
+			<div class="wrap">
+				<div class="section-heading category-heading">
+					<div><p class="eyebrow">RECORRÉ EL CATÁLOGO</p><h2 id="categories-title">Todo por categoría</h2></div>
+					<p>Todo el surtido ordenado para armar tu pedido rápido.</p>
+				</div>
+				<div class="category-list" data-all-label="Todo" role="group" aria-label="Filtrar productos por categoría"></div>
+			</div>
+		</section>
+
+		<section class="products-section section-pad" id="destacados" aria-labelledby="products-title">
+			<div class="wrap">
+				<p class="catalog-source-notice" data-catalog-source data-state="loading" role="status" aria-live="polite">Cargando el catálogo local…</p>
+				<div class="section-heading products-heading">
+					<div><p class="eyebrow">LOS MÁS PEDIDOS</p><h2 id="products-title">Productos destacados</h2></div>
+					<a class="underlined-link" href="productos.html">Ver todos los productos <span aria-hidden="true">→</span></a>
+				</div>
+				<p class="demo-notice"><span aria-hidden="true">ⓘ</span> Precios y disponibilidad sujetos a confirmación con la distribuidora.</p>
+				<p class="results-message" data-results-message aria-live="polite"></p>
+				<div class="product-grid" data-product-grid aria-live="polite"></div>
+				<noscript><p class="no-results">Para ver los productos, habilitá JavaScript en el navegador.</p></noscript>
+			</div>
+		</section>
+
+		<section class="new-products-section section-pad" aria-labelledby="new-products-title">
+			<div class="wrap">
+				<div class="section-heading products-heading">
+					<div><p class="eyebrow">RECIÉN LLEGADOS</p><h2 id="new-products-title">Novedades para descubrir</h2></div>
+					<a class="underlined-link" href="productos.html">Recorrer catálogo <span aria-hidden="true">→</span></a>
+				</div>
+				<div class="product-grid new-product-grid" data-new-products></div>
+			</div>
+		</section>
+
+		<section class="home-offers-section section-pad" aria-labelledby="home-offers-title">
+			<div class="wrap">
+				<div class="section-heading products-heading">
+					<div><p class="eyebrow">OFERTAS DE LA SEMANA</p><h2 id="home-offers-title">Precios especiales</h2></div>
+					<a class="underlined-link" href="ofertas.html">Ver todas las ofertas <span aria-hidden="true">→</span></a>
+				</div>
+				<p class="demo-notice"><span aria-hidden="true">ⓘ</span> Ofertas sujetas a disponibilidad y confirmación.</p>
+				<div class="product-grid home-offers-grid" data-home-offers></div>
+			</div>
+		</section>
+
+		<section class="offer-band" aria-labelledby="offer-title">
+			<div class="wrap offer-content">
+				<div class="offer-mark" aria-hidden="true">%</div>
+				<div class="offer-copy"><p class="eyebrow">PRECIOS ESPECIALES</p><h2 id="offer-title">Ofertas para la semana.</h2><p>Consultá los productos destacados y sus precios minoristas y mayoristas.</p></div>
+				<a class="button button-dark" href="ofertas.html">Ver ofertas <span aria-hidden="true">→</span></a>
+			</div>
+		</section>
+
+		<section class="how-section section-pad" aria-labelledby="how-title">
+			<div class="wrap how-layout">
+				<div class="how-intro"><p class="eyebrow">PARA TU COMERCIO</p><h2 id="how-title">Reponé tu mercadería.</h2><p>Yerba, aceite, arroz, bebidas y limpieza: armá el pedido de tu negocio en un solo lugar.</p><a class="underlined-link" href="productos.html">Armar mi pedido <span aria-hidden="true">→</span></a></div>
+				<ol class="steps-list">
+					<li><span class="step-number">01</span><div><h3>Elegís tus productos</h3><p>Buscá en almacén, bebidas, frescos, higiene y limpieza.</p></div></li>
+					<li><span class="step-number">02</span><div><h3>Revisás tu carrito</h3><p>Al llegar a la cantidad mayorista de cada producto, el precio baja solo.</p></div></li>
+					<li><span class="step-number">03</span><div><h3>Enviás tu pedido</h3><p>Lo mandás por WhatsApp y coordinamos disponibilidad y entrega.</p></div></li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="local-section" aria-labelledby="local-title">
+			<div class="wrap local-content">
+				<div class="local-pin" aria-hidden="true">📍</div>
+				<div><p class="eyebrow">EN CAMPO LARGO</p><h2 id="local-title">Tu distribuidora en Campo Largo.</h2><p>Ubicación, horarios y modalidades de entrega: información pendiente de confirmar.</p></div>
+				<a class="button button-outline" href="contacto.html">Ubicación y horarios <span aria-hidden="true">→</span></a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="wrap footer-main">
+			<div class="footer-brand-block"><a class="brand brand-footer" href="index.html"><img src="assets/logo-192.png" width="48" height="48" alt=""><span class="brand-copy"><strong data-business-name>JS</strong><span>DISTRIBUIDORA</span></span></a><p>Distribución mayorista y minorista<br><span data-contact-footer-address>Campo Largo, Chaco, Argentina</span></p></div>
+			<div class="footer-column"><h2>Explorá</h2><a href="index.html">Inicio</a><a href="productos.html">Productos</a><a href="ofertas.html">Ofertas</a><a href="contacto.html">Contacto</a></div>
+			<div class="footer-column"><h2>Visitanos</h2><p data-contact-footer-address>Dirección</p><p data-contact-footer-hours>Horarios</p></div>
+		</div>
+		<div class="footer-bottom"><div class="wrap"><span>© <span data-current-year>2026</span> <span data-business-name>JS</span></span><span>Precios y disponibilidad sujetos a confirmación.</span><span class="pymes-promo">Sitio creado con Pymes. ¿Necesitás alojar tu página para tu negocio? <a href="https://pymes.uno" target="_blank" rel="noopener noreferrer">Conocé pymes.uno</a>.</span></div></div>
+	</footer>
+	<div class="toast" role="status" aria-live="polite" data-toast></div>
+</body>
+</html>

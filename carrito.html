@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Revisá tu pedido a JS Distribuidora en Campo Largo, Chaco.">
+	<meta name="theme-color" content="#000611">
+	<title>Mi carrito | JS Distribuidora</title>
+	<link rel="icon" href="assets/logo-192.png" type="image/png">
+	<link rel="apple-touch-icon" href="assets/logo-192.png">
+	<link rel="manifest" href="manifest.webmanifest">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/cart.css">
+	<script type="module" src="js/cart.js"></script>
+	<script type="module" src="js/contact.js"></script>
+	<script type="module" src="js/pwa.js"></script>
+</head>
+<body>
+	<a class="skip-link" href="#contenido">Ir al contenido</a>
+	<div class="announcement-bar"><p>Distribuidora en Campo Largo <span aria-hidden="true">·</span> Precios por mayor y menor</p><a href="contacto.html">Horarios y ubicación <span aria-hidden="true">→</span></a></div>
+	<header class="site-header">
+		<div class="header-main wrap"><a class="brand" href="index.html" aria-label="JS, inicio"><img src="assets/logo-192.png" width="48" height="48" alt=""><span class="brand-copy"><strong data-business-name>JS</strong><span>DISTRIBUIDORA</span></span></a><form class="search-form" action="productos.html" role="search"><label class="visually-hidden" for="cart-search-input">Buscar productos</label><span class="search-icon" aria-hidden="true">🔍</span><input id="cart-search-input" name="q" type="search" placeholder="¿Qué estás buscando?" autocomplete="off"><button type="submit">Buscar</button></form><a class="cart-link" href="carrito.html" aria-current="page" aria-label="Carrito, 0 artículos"><span class="cart-icon" aria-hidden="true">🛒</span><span class="cart-label">Mi carrito</span><span class="cart-count" data-cart-count aria-live="polite">0</span></a></div>
+		<nav class="main-nav" aria-label="Navegación principal"><div class="wrap nav-inner"><a href="index.html">Inicio</a><a href="productos.html">Productos</a><a href="ofertas.html">Ofertas</a><a href="contacto.html">Contacto</a><span class="nav-location"><span aria-hidden="true">📍</span> Campo Largo, Chaco</span></div></nav>
+	</header>
+	<main id="contenido" class="cart-page wrap">
+		<div class="cart-page-heading"><div><p class="eyebrow">TU COMPRA</p><h1>Mi carrito</h1><p>Revisá productos, cantidades y total estimado.</p></div><a class="underlined-link" href="productos.html">← Seguir comprando</a></div>
+		<div class="cart-demo-note"><span aria-hidden="true">ⓘ</span> Precios y disponibilidad sujetos a confirmación. No se procesan pagos en este sitio.</div>
+		<div class="cart-layout">
+			<section class="cart-items-panel" aria-label="Productos en el pedido"><div class="cart-items" data-cart-items></div>
+				<div class="cart-empty" data-cart-empty hidden><div class="empty-cart-symbol" aria-hidden="true">🛒</div><h2>Tu carrito está vacío</h2><p>Agregá productos y aparecerán acá.</p><a class="button button-lime" href="productos.html">Ver catálogo <span aria-hidden="true">→</span></a></div>
+			</section>
+			<aside class="cart-summary" data-cart-summary aria-labelledby="summary-title" hidden><h2 id="summary-title">Resumen de compra</h2><div class="summary-line"><span>Subtotal</span><strong data-cart-subtotal>$ 0</strong></div><div class="summary-line summary-total"><span>Total estimado</span><strong data-cart-total>$ 0</strong></div><p>El importe final depende de los precios y la disponibilidad confirmados por la distribuidora. El pedido se confirma únicamente por WhatsApp: el mensaje incluye tu orden de compra con número.</p><form class="order-customer" data-order-customer novalidate autocomplete="on"><h3>Tus datos para el pedido</h3><label>Nombre o razón social <span aria-hidden="true">*</span><input name="nombre" autocomplete="name" required maxlength="120"></label><label>Teléfono<input name="telefono" type="tel" autocomplete="tel" maxlength="30"></label><label>Dirección o localidad<input name="direccion" autocomplete="street-address" maxlength="160"></label><label>CUIT / DNI<input name="documento" inputmode="numeric" maxlength="20"></label><label>Nota<textarea name="nota" rows="2" maxlength="300" placeholder="Ej: horario de entrega"></textarea></label></form><button class="button button-dark whatsapp-order-button" type="button" data-whatsapp-order disabled aria-describedby="whatsapp-order-status">Enviar pedido por WhatsApp</button><span id="whatsapp-order-status" class="pending-note" data-order-contact-status role="status" aria-live="polite">Cargando el número para pedidos…</span><button class="clear-cart-button" type="button" data-clear-cart>Vaciar carrito</button></aside>
+		</div>
+	</main>
+	<footer class="site-footer"><div class="wrap footer-main"><div class="footer-brand-block"><a class="brand brand-footer" href="index.html"><img src="assets/logo-192.png" width="48" height="48" alt=""><span class="brand-copy"><strong data-business-name>JS</strong><span>DISTRIBUIDORA</span></span></a><p>Distribución mayorista y minorista<br><span data-contact-footer-address>Campo Largo, Chaco, Argentina</span></p></div><div class="footer-column"><h2>Explorá</h2><a href="index.html">Inicio</a><a href="productos.html">Productos</a><a href="ofertas.html">Ofertas</a><a href="contacto.html">Contacto</a></div><div class="footer-column"><h2>Visitanos</h2><p data-contact-footer-address>Dirección</p><p data-contact-footer-hours>Horarios</p></div></div><div class="footer-bottom"><div class="wrap"><span>© <span data-current-year>2026</span> <span data-business-name>JS</span></span><span>Total orientativo sujeto a confirmación.</span><span class="pymes-promo">Sitio creado con Pymes. ¿Necesitás alojar tu página para tu negocio? <a href="https://pymes.uno" target="_blank" rel="noopener noreferrer">Conocé pymes.uno</a>.</span></div></div></footer>
+</body>
+</html>

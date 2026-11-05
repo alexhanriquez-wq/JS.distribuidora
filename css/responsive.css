@@ -1,0 +1,111 @@
+@media (max-width: 900px) {
+	.header-main { grid-template-columns: 245px minmax(150px, 1fr) 70px; gap: 12px; }
+	.brand-copy strong[data-business-name] { font-size: 16px; }
+	.cart-label { display: none; }
+	.product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.new-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.home-offers-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.product-media { height: 230px; }
+	.how-layout { gap: 48px; }
+	.footer-main { gap: 38px; }
+	.delivery-panel { gap: 28px; }
+}
+
+@media (max-width: 640px) {
+	.wrap { width: min(100% - 36px, var(--content-width)); }
+	.announcement-bar { justify-content: space-between; gap: 8px; min-height: 38px; padding-inline: 18px; font-size: 10px; }
+	.announcement-bar a { white-space: nowrap; }
+	.announcement-bar p span { display: none; }
+	.header-main { grid-template-columns: 1fr auto; gap: 12px; padding-block: 13px; }
+	.brand img { width: 42px; height: 42px; }
+	.brand-copy strong { font-size: 20px; }
+	.brand-copy strong[data-business-name] { max-width: 190px; font-size: 15px; }
+	.brand-copy span { font-size: 9px; }
+	.search-form { grid-column: 1 / -1; grid-row: 2; height: 42px; }
+	.search-form button { padding-inline: 14px; }
+	.cart-link { gap: 6px; }
+	.cart-icon { font-size: 19px; }
+	.cart-count { width: 20px; height: 20px; }
+	.nav-inner { justify-content: space-between; gap: 12px; min-height: 44px; }
+	.nav-inner > a { height: 44px; font-size: 12px; }
+	.nav-location { display: none; }
+	.hero { min-height: 530px; align-items: end; }
+	.hero-image { object-position: 58% center; }
+	.hero-shade { background: linear-gradient(0deg, rgba(0, 6, 17,.94) 0%, rgba(0, 6, 17,.78) 58%, rgba(0, 6, 17,.12) 100%); }
+	.hero-content { padding-block: 140px 76px; }
+	.hero h1 { max-width: 450px; font-size: 42px; }
+	.hero-description { max-width: 420px; margin-top: 15px; font-size: 14px; }
+	.hero-actions { align-items: flex-start; flex-direction: column; gap: 17px; margin-top: 22px; }
+	.hero-note { margin-top: 17px; font-size: 10px; }
+	.hero-stamp { right: 18px; bottom: 0; padding: 11px 14px; }
+	.hero-stamp > span { font-size: 21px; }
+	.hero-stamp strong { font-size: 10px; }
+	.service-grid { grid-template-columns: 1fr; padding-block: 7px; }
+	.service-item, .service-item:first-child { min-height: 65px; padding: 10px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+	.service-item:last-child { border-bottom: 0; }
+	.service-symbol { width: 37px; height: 37px; flex-basis: 37px; font-size: 17px; }
+	.service-item div span { font-size: 11px; }
+	.section-pad { padding-block: 54px; }
+	.categories-section { padding-bottom: 42px; }
+	.section-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
+	.section-heading h2, .offer-copy h2 { font-size: 30px; }
+	.section-heading > p { max-width: 100%; font-size: 13px; }
+	.category-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 22px; }
+	.category-button { justify-content: flex-start; min-height: 43px; padding-inline: 11px; font-size: 12px; }
+	.products-section { padding-top: 43px; }
+	.products-heading { align-items: flex-start; }
+	.demo-notice { align-items: flex-start; font-size: 11px; }
+	.catalog-source-notice { font-size: 11px; }
+	.product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+	.product-media { height: auto; aspect-ratio: 1 / .88; }
+	.new-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.home-offers-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.demo-tag { top: 7px; left: 7px; padding: 4px 6px; font-size: 8px; }
+	.product-body { padding: 11px; }
+	.product-body h3 { min-height: 40px; font-size: 13px; }
+	.product-presentation { min-height: 30px; margin-bottom: 9px; font-size: 10px; }
+	.product-price-row { align-items: flex-start; flex-direction: column; gap: 9px; }
+	.product-price { font-size: 16px; }
+	.add-button { width: 100%; min-height: 35px; }
+	.offer-band { padding-block: 32px; }
+	.offer-content { grid-template-columns: 48px 1fr; gap: 15px; }
+	.offer-mark { width: 46px; height: 46px; font-size: 24px; }
+	.offer-copy h2 { font-size: 26px; }
+	.offer-copy > p:last-child { font-size: 12px; }
+	.offer-content > .button { grid-column: 2; justify-self: start; min-height: 43px; }
+	.how-section { padding-block: 58px; }
+	.how-layout { grid-template-columns: 1fr; gap: 30px; }
+	.how-intro h2 { font-size: 36px; }
+	.steps-list li { grid-template-columns: 40px 1fr; gap: 12px; }
+	.local-section { padding-block: 34px; }
+	.local-content { grid-template-columns: 44px 1fr; gap: 13px; }
+	.local-pin { width: 42px; height: 42px; font-size: 18px; }
+	.local-content h2 { font-size: 23px; }
+	.local-content > .button { grid-column: 2; justify-self: start; min-height: 42px; }
+	.footer-main { grid-template-columns: 1fr 1fr; gap: 30px 18px; padding-block: 38px 30px; }
+	.footer-brand-block { grid-column: 1 / -1; }
+	.footer-bottom .wrap { align-items: flex-start; flex-direction: column; gap: 4px; padding-block: 12px; font-size: 10px; }
+	.toast { right: 16px; bottom: 16px; }
+	.inner-hero { padding-block: 45px 40px; }
+	.inner-hero h1 { font-size: 36px; }
+	.inner-hero .wrap > p:last-child { font-size: 13px; }
+	.catalog-area { padding-block: 42px 56px; }
+	.catalog-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
+	.catalog-heading h2, .contact-intro h2, .delivery-panel h2 { font-size: 29px; }
+	.catalog-heading .demo-notice { margin-top: 5px; }
+	.product-description { min-height: auto; font-size: 11px; }
+	.contact-area { padding-block: 48px 58px; }
+	.contact-grid { grid-template-columns: 1fr; margin-top: 24px; }
+	.contact-detail { min-height: 112px; padding: 18px; }
+	.delivery-panel { grid-template-columns: 1fr; gap: 22px; margin-top: 34px; padding: 20px; }
+	.map-placeholder { min-height: 160px; }
+}
+
+@media (max-width: 380px) {
+	.announcement-bar { font-size: 9px; }
+	.announcement-bar a { font-size: 9px; }
+	.hero h1 { font-size: 37px; }
+	.product-grid { gap: 8px; }
+	.product-body { padding: 9px; }
+	.product-body h3 { font-size: 12px; }
+}

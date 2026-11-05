@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Consulta local de productos y precios de JS.">
+	<meta name="theme-color" content="#000611">
+	<title>Catálogo local | JS Distribuidora</title>
+	<link rel="icon" href="../assets/logo-192.png" type="image/png">
+	<link rel="apple-touch-icon" href="../assets/logo-192.png">
+	<link rel="manifest" href="../manifest.webmanifest">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/responsive.css">
+	<link rel="stylesheet" href="../css/admin.css">
+	<script type="module" src="../js/admin.js"></script>
+	<script type="module" src="../js/contact.js"></script>
+	<script type="module" src="../js/pwa.js"></script>
+</head>
+<body class="admin-page">
+	<a class="skip-link" href="#contenido">Ir al contenido</a>
+	<header class="admin-header"><div class="wrap admin-header-inner">
+		<a class="brand" href="../index.html" aria-label="JS, inicio"><img src="../assets/logo-192.png" width="48" height="48" alt=""><span class="brand-copy"><strong data-business-name>JS</strong><span>DISTRIBUIDORA</span></span></a>
+		<div class="admin-header-actions"><a class="underlined-link" href="../productos.html">Ver tienda <span aria-hidden="true">↗</span></a><a class="cart-link" href="../carrito.html" aria-label="Ir al carrito"><span class="cart-icon" aria-hidden="true">🛒</span><span class="cart-count" data-cart-count aria-live="polite">0</span></a></div>
+	</div></header>
+	<main class="wrap admin-content" id="contenido">
+		<div class="admin-title-row">
+			<div><p class="eyebrow">CATÁLOGO LOCAL</p><h1>Productos de JS Distribuidora</h1><p>Datos enlazados por el código de barras de cada producto.</p></div>
+			<div class="admin-summary"><div><span>Productos cargados</span><strong data-admin-count>0</strong></div></div>
+		</div>
+		<p class="admin-warning"><strong>Edición manual de datos</strong>Esta página es de solo lectura. Para cambiar productos, precios o imágenes usá la app JS Admin, o editá <code>productos.json</code> en la raíz del proyecto y volvé a publicar el sitio.</p>
+		<section class="admin-panel" aria-labelledby="admin-list-title">
+			<div class="admin-toolbar admin-toolbar--readonly">
+				<div class="admin-field"><label for="admin-search">Buscar producto o código de barras</label><input id="admin-search" type="search" data-admin-search placeholder="Nombre o código"></div>
+			</div>
+			<h2 id="admin-list-title">Productos y precios</h2>
+			<div class="admin-table-wrap"><table class="admin-table"><thead><tr><th scope="col">Producto</th><th scope="col">Código de barras</th><th scope="col">Minorista</th><th scope="col">Mayorista</th></tr></thead><tbody data-admin-products></tbody></table></div>
+			<p class="admin-feedback" data-admin-feedback role="status" aria-live="polite"></p>
+		</section>
+	</main>
+	<footer class="admin-footer"><div class="wrap admin-footer-content"><span data-business-name>JS</span><div><strong>Visitanos</strong><span data-contact-footer-address>Dirección</span><span data-contact-footer-hours>Horarios</span></div></div><div class="wrap"><p class="admin-pymes-promo">Sitio creado con Pymes. ¿Necesitás alojar tu página para tu negocio? <a href="https://pymes.uno" target="_blank" rel="noopener noreferrer">Conocé pymes.uno</a>.</p></div></footer>
+</body>
+</html>
