@@ -7,8 +7,8 @@
     "descripcion": "",
     "oferta": true,
     "destacado": false,
-    "precio_minorista": 25000.0,
-    "precio_mayorista": 24000.0,
+    "precio_minorista": 25000,
+    "precio_mayorista": 24000,
     "cantidad_mayorista": 4
   },
   "7798167047923": {
@@ -19,19 +19,18 @@
     "descripcion": "",
     "oferta": true,
     "destacado": true,
-    "precio_minorista": 44000.0,
+    "precio_minorista": 44000,
     "precio_mayorista": null
   },
   "961": {
     "codigo_barras": "961",
     "nombre": "KETEROLAX",
     "categoria": "Sin Clasificar",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgjZFxvueItl53-TY4csvpj2e1KwfKd7ArqhoJxm308g&s=10",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793884671/productos-js/961-1793884670.jpg",
     "descripcion": "",
     "oferta": false,
     "destacado": false,
-    "precio_minorista": 20.0,
-    "precio_mayorista": null
+    "precio_minorista": 20
   },
   "9771473968012": {
     "codigo_barras": "9771473968012",
@@ -41,7 +40,7 @@
     "descripcion": "",
     "oferta": true,
     "destacado": true,
-    "precio_minorista": 700.0,
+    "precio_minorista": 700,
     "precio_mayorista": null
   }
 }
