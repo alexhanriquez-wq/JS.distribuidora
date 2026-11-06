@@ -178,5 +178,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1100
+  },
+  "295143": {
+    "codigo_barras": "295143",
+    "nombre": "Cefalexina",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967686/productos-js/295143-1793967686.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2200
   }
 }
