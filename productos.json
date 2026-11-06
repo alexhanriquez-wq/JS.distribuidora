@@ -88,5 +88,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 3500
+  },
+  "19028364": {
+    "codigo_barras": "19028364",
+    "nombre": "Aspirineta",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793966776/productos-js/fycljbpwbtwpj570pksp.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1000
   }
 }
