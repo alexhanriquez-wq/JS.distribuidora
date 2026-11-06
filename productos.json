@@ -428,5 +428,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 2000
+  },
+  "1056372": {
+    "codigo_barras": "1056372",
+    "nombre": "Tafirol forte",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969425/productos-js/1056372-1793969425.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2500
   }
 }
