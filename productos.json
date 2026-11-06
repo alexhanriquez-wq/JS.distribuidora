@@ -128,5 +128,25 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 2600
+  },
+  "109283215432": {
+    "codigo_barras": "109283215432",
+    "nombre": "Bayaspirina como.",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967214/productos-js/t7wusnu9mit38jcqmszo.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2000
+  },
+  "093726153": {
+    "codigo_barras": "093726153",
+    "nombre": "Buscapina compuesta",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967319/productos-js/tps6ulommn4lz7f7k8j0.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 8400
   }
 }
