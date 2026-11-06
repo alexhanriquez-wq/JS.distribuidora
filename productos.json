@@ -98,5 +98,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1000
+  },
+  "109283745": {
+    "codigo_barras": "109283745",
+    "nombre": "Bayaspirina C",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793966837/productos-js/rfhpyiljoqpog0bh6wmi.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1750
   }
 }
