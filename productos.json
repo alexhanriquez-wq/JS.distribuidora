@@ -378,5 +378,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 800
+  },
+  "107453614": {
+    "codigo_barras": "107453614",
+    "nombre": "Quraplus",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969013/productos-js/107453614-1793969013.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 4900
   }
 }
