@@ -118,5 +118,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1300
+  },
+  "128930745": {
+    "codigo_barras": "128930745",
+    "nombre": "Bayaspirina forte",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967107/productos-js/y7iusmiai7suxjpk4hrh.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2600
   }
 }
