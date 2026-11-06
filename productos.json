@@ -368,5 +368,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1600
+  },
+  "6143728": {
+    "codigo_barras": "6143728",
+    "nombre": "Paracetamol 500",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968970/productos-js/6143728-1793968970.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 800
   }
 }
