@@ -48,5 +48,25 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 860
+  },
+  "125268399": {
+    "codigo_barras": "125268399",
+    "nombre": "Alikal Naranja",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793966250/productos-js/vmit9v0l7e7nbsaiafw1.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 860
+  },
+  "19827364": {
+    "codigo_barras": "19827364",
+    "nombre": "Almaximo",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793966316/productos-js/k9q8uu5czbugjjkeppkk.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1200
   }
 }
