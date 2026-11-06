@@ -168,5 +168,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 3000
+  },
+  "881919923": {
+    "codigo_barras": "881919923",
+    "nombre": "Pastilla carbon",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967593/productos-js/881919923-1793967593.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1100
   }
 }
