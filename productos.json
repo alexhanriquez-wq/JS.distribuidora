@@ -318,5 +318,25 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 3300
+  },
+  "1095371823": {
+    "codigo_barras": "1095371823",
+    "nombre": "Migral 500",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968639/productos-js/1095371823-1793968639.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 5000
+  },
+  "01825331": {
+    "codigo_barras": "01825331",
+    "nombre": "Migral compuesto",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968688/productos-js/01825331-1793968688.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 5200
   }
 }
