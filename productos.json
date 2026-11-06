@@ -438,5 +438,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 2500
+  },
+  "45173842": {
+    "codigo_barras": "45173842",
+    "nombre": "Tafirol plus",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969488/productos-js/45173842-1793969488.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 3500
   }
 }
