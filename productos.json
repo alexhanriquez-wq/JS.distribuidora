@@ -278,5 +278,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 800
+  },
+  "51623417": {
+    "codigo_barras": "51623417",
+    "nombre": "Ibuprofeno 600",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968454/productos-js/51623417-1793968454.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1000
   }
 }
