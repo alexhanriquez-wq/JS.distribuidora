@@ -1,1 +1,12 @@
-{}
+{
+  "123456718": {
+    "codigo_barras": "123456718",
+    "nombre": "Actron 400",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793964626/productos-js/bx2zphavcxdiqsiqkedf.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 3.8
+  }
+}
