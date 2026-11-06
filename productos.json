@@ -298,5 +298,25 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 700
+  },
+  "1097643": {
+    "codigo_barras": "1097643",
+    "nombre": "Loperamida",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968534/productos-js/1097643-1793968534.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1000
+  },
+  "10925477": {
+    "codigo_barras": "10925477",
+    "nombre": "Mejoral pará niños",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968573/productos-js/10925477-1793968573.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 3300
   }
 }
