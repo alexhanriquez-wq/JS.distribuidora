@@ -198,5 +198,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1700
+  },
+  "22718526": {
+    "codigo_barras": "22718526",
+    "nombre": "Diclofenac 100",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967809/productos-js/22718526-1793967810.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1300
   }
 }
