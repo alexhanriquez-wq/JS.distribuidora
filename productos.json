@@ -288,5 +288,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1000
+  },
+  "215363851": {
+    "codigo_barras": "215363851",
+    "nombre": "Keterolac",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968498/productos-js/215363851-1793968498.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 700
   }
 }
