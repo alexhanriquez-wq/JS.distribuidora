@@ -218,5 +218,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 800
+  },
+  "1642617": {
+    "codigo_barras": "1642617",
+    "nombre": "Dorixina",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967922/productos-js/1642617-1793967922.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2600
   }
 }
