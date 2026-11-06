@@ -248,5 +248,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 3100
+  },
+  "267134561": {
+    "codigo_barras": "267134561",
+    "nombre": "Ibuevanol plus",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968254/productos-js/267134561-1793968254.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2900
   }
 }
