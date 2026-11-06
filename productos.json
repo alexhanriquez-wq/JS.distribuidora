@@ -418,5 +418,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 2000
+  },
+  "1095537": {
+    "codigo_barras": "1095537",
+    "nombre": "Tafirol 500",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969346/productos-js/1095537-1793969346.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2000
   }
 }
