@@ -208,5 +208,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1300
+  },
+  "105742718": {
+    "codigo_barras": "105742718",
+    "nombre": "Diclofenac 75",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967860/productos-js/105742718-1793967860.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 800
   }
 }
