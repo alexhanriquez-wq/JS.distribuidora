@@ -148,5 +148,25 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 8400
+  },
+  "000190378": {
+    "codigo_barras": "000190378",
+    "nombre": "Buscapina perla",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967405/productos-js/000190378-1793967405.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 6500
+  },
+  "29833316": {
+    "codigo_barras": "29833316",
+    "nombre": "Cafiaspirina",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967520/productos-js/29833316-1793967520.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 3000
   }
 }
