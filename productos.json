@@ -38,5 +38,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 860
+  },
+  "1253647819": {
+    "codigo_barras": "1253647819",
+    "nombre": "Alikal limón",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793966149/productos-js/1253647819-1793966149.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 860
   }
 }
