@@ -398,5 +398,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 8800
+  },
+  "10647423": {
+    "codigo_barras": "10647423",
+    "nombre": "Sertal perla",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969157/productos-js/10647423-1793969157.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 6100
   }
 }
