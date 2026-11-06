@@ -408,5 +408,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 6100
+  },
+  "01955316": {
+    "codigo_barras": "01955316",
+    "nombre": "Tafirol 1 g",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969238/productos-js/01955316-1793969238.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2000
   }
 }
