@@ -18,5 +18,25 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 8400
+  },
+  "261738917253": {
+    "codigo_barras": "261738917253",
+    "nombre": "Actron mujer",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793965622/productos-js/261738917253-1793965622.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 4000
+  },
+  "1245163789": {
+    "codigo_barras": "1245163789",
+    "nombre": "Alikal clásico",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793965800/productos-js/1245163789-1793965800.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 860
   }
 }
