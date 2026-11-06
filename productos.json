@@ -8,5 +8,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 3800
+  },
+  "2142564785": {
+    "codigo_barras": "2142564785",
+    "nombre": "Actron 600",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793965501/productos-js/2142564785-1793965501.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 8400
   }
 }
