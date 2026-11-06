@@ -258,5 +258,25 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 2900
+  },
+  "100062752": {
+    "codigo_barras": "100062752",
+    "nombre": "Ibuevanol rap acc",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968334/productos-js/100062752-1793968334.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 2500
+  },
+  "6514275": {
+    "codigo_barras": "6514275",
+    "nombre": "Ibuprofeno 400",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968411/productos-js/6514275-1793968411.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 800
   }
 }
