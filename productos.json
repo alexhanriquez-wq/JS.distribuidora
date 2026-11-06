@@ -388,5 +388,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 4900
+  },
+  "10666388": {
+    "codigo_barras": "10666388",
+    "nombre": "Sertal compuesto",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969097/productos-js/10666388-1793969097.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 8800
   }
 }
