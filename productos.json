@@ -188,5 +188,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 2200
+  },
+  "00029981": {
+    "codigo_barras": "00029981",
+    "nombre": "Curita de tela",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967753/productos-js/00029981-1793967753.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1700
   }
 }
