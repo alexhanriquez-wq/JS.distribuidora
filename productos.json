@@ -68,5 +68,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1200
+  },
+  "1892738465": {
+    "codigo_barras": "1892738465",
+    "nombre": "Amoxicilina 500",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793966531/productos-js/1892738465-1793966531.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1700
   }
 }
