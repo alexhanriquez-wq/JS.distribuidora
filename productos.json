@@ -108,5 +108,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1750
+  },
+  "120038476": {
+    "codigo_barras": "120038476",
+    "nombre": "Bayaspirina C fría",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793966980/productos-js/qtolzzxjcqz8mjinyhps.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1300
   }
 }
