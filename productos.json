@@ -448,5 +448,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 3500
+  },
+  "1628351": {
+    "codigo_barras": "1628351",
+    "nombre": "Te vent3",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969546/productos-js/1628351-1793969546.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1200
   }
 }
