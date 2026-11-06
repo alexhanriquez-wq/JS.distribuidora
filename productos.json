@@ -78,5 +78,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1700
+  },
+  "189273541": {
+    "codigo_barras": "189273541",
+    "nombre": "Amoxidal 500",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793966619/productos-js/189273541-1793966619.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 3500
   }
 }
