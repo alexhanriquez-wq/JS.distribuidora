@@ -358,5 +358,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1000
+  },
+  "1094655": {
+    "codigo_barras": "1094655",
+    "nombre": "Paracetamol 1G",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968895/productos-js/1094655-1793968895.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1600
   }
 }
