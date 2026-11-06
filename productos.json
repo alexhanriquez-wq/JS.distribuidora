@@ -348,5 +348,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 5800
+  },
+  "2615378": {
+    "codigo_barras": "2615378",
+    "nombre": "Omeprazol",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968846/productos-js/2615378-1793968846.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 1000
   }
 }
