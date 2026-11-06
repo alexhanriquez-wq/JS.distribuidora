@@ -458,5 +458,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 1200
+  },
+  "105543001": {
+    "codigo_barras": "105543001",
+    "nombre": "UBASAL",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793969622/productos-js/105543001-1793969622.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 600
   }
 }
