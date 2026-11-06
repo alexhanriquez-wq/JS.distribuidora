@@ -228,5 +228,25 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 2600
+  },
+  "6541097": {
+    "codigo_barras": "6541097",
+    "nombre": "Geniol 1GR",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793967987/productos-js/6541097-1793967988.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 3000
+  },
+  "28514377": {
+    "codigo_barras": "28514377",
+    "nombre": "Ibuevanol max",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968169/productos-js/28514377-1793968169.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 3100
   }
 }
