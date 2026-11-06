@@ -338,5 +338,15 @@
     "oferta": false,
     "destacado": false,
     "precio_minorista": 5200
+  },
+  "01831425": {
+    "codigo_barras": "01831425",
+    "nombre": "Novalguina",
+    "categoria": "Otros",
+    "imagen": "https://res.cloudinary.com/o1cykkrb/image/upload/v1793968743/productos-js/01831425-1793968743.jpg",
+    "descripcion": "",
+    "oferta": false,
+    "destacado": false,
+    "precio_minorista": 5800
   }
 }
